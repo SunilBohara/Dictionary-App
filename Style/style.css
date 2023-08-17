@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container nav, form , section {
+    margin-bottom: 30px;
+}
+
+.container form, section{
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* Container styling */
+.container{
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Nav styling */
+.container nav{
+    display: flex;
+    align-items: center;
+}
+
+.container nav .left-logo{
+    margin-right: 20px;
+}
+
+
+/* SearchBox Styling */
+form input[type=text] {
+    background-color: #F1F4F7;
+    border: 1px solid #CED9E3;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 18px;
+    padding: 12px;
+    outline: none;
+}
+
+
+/* Tab container styling */
+.tab-container {
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: 350px;
+}
+
+.tab-container , .play, .tabs, .meaning-box{
+    margin: 15px auto;
+}
+
+.hide{
+    display: none;
+}
+
+.tab-container .play{
+    display: flex;
+    align-items: center;
+}
+
+.tab-container .play p {
+    margin-left: 15px;
+}
+
+.container .tabs .active{
+    background-color: black;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.container .tabs button{
+    background-color: #dfdcdc;
+    color: black;
+    padding: 4px 12px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.tab-container .meaning-box {
+    line-height: 2.0;
+}
+
+.tab-container svg{
+    display: inline-block;
+    margin-top: 80px;
+}
